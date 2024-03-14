@@ -67,10 +67,11 @@ main {
 }
 .lineTime {
   text-align: center;
+  margin-bottom: 25px;
 }
 
 ul {
-  width: 60%;
+  width: 52%;
   min-width: 300px;
   text-align: left;
   margin: 0 auto;
@@ -81,23 +82,28 @@ ul > li {
   font-weight: 350;
 }
 
+.contributionsContainer {
+  text-align: center;
+  padding: 0 370px;
+}
 .contributionTitle {
   margin-bottom: 0;
 }
-.description {
+.contributions {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 8px;
-  padding: 0 300px;
 }
 @media (min-width: 100px) and (max-width: 1398px) {
-  .description {
+  .contributions {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     gap: 2px;
+  }
+  .contributionsContainer {
     padding: 0 20px;
   }
 }
@@ -107,7 +113,7 @@ ul > li {
   border-radius: 100px;
   object-fit: cover;
 }
-.contributions {
+.textOfContributions {
   text-align: left;
   font-family: "Red Hat Display";
   font-weight: 400;
